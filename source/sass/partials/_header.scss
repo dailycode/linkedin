@@ -3,13 +3,16 @@
 	height: rem-calc(120px);
 	background: $bg-navtop;
 	box-shadow: 1px 0 10px #ccc;
+	overflow: hidden;
 }
 
+.content_navbar {
+	margin: 15px 0;
+}
 .logo {
 	@include col( 2 / 12);
 	background: url('../img/LinkedIn-Logo.png') no-repeat center;
 	height: rem-calc(60px);
-	margin-top: 0.8rem;
 	background-size: contain;
 	text-indent: -9999px;
 }
@@ -21,33 +24,34 @@
 
 .icon_search {
 	position: absolute;
-	right: 3%;
-	top: 19%;
-	width: 30px;
-	height: 30px;
+	right: 6%;
+	top: 20%;
+	width: 27px;
+	height: 27px;
 	background: url('../img/search.png') no-repeat;
 }
 
 .avatar_top {
 	@include col( 1 / 12 );
 	position: relative;
-	&:after {
-		width: rem-calc(30px);
-		height: rem-calc(30px);
-		content: '15';
-		background: $icon-notification;
-		position: absolute;
-		top: 10px;
-		right: 2px;
-		padding: 3px;
-		border-radius: 100%;
-		text-align: center;
-		color: $color-notification;
-		font-weight: bold;
-	}
 }
 
 .avatar {
 	width: 40px;
 	height: 40px;
+}
+
+.number_notification {
+	width: rem-calc(40px);
+	height: rem-calc(40px);
+	content: '15';
+	background: $icon-notification;
+	position: absolute;
+	top: -10px;
+	right: 2px;
+	padding: 3px;
+	border-radius: 100%;
+	text-align: center;
+	color: $color-notification;
+	font-weight: bold;
 }
