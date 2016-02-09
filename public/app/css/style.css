@@ -567,6 +567,28 @@ body {
   margin-right: 0%;
 }
 
+.search {
+  float: left;
+  clear: none;
+  width: 39.91667%;
+  margin-left: 0%;
+  margin-right: 3%;
+  position: relative;
+}
+
+.search:last-child {
+  margin-right: 0%;
+}
+
+.icon_search {
+  position: absolute;
+  right: 3%;
+  top: 19%;
+  width: 30px;
+  height: 30px;
+  background: url("../img/search.png") no-repeat;
+}
+
 .center {
   width: auto;
   max-width: 1000px;
@@ -588,6 +610,35 @@ footer {
 
 footer:last-child {
   margin-right: 0%;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.search_all {
+  width: 100%;
+  padding: 1.25rem 0.625rem;
+  border: 2px solid #e3e3ec;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.search_all::-webkit-input-placeholder {
+  margin-left: cal-rem(20px);
+}
+
+.search_all::-moz-placeholder {
+  margin-left: cal-rem(20px);
+}
+
+.search_all:-ms-input-placeholder {
+  margin-left: cal-rem(20px);
+}
+
+.search_all::placeholder {
+  margin-left: cal-rem(20px);
 }
 
 @font-face {

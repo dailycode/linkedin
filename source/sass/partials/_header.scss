@@ -13,3 +13,17 @@
 	background-size: contain;
 	text-indent: -9999px;
 }
+
+.search {
+	@include col( 5 / 12 );
+	position: relative;
+}
+
+.icon_search {
+	position: absolute;
+	right: 3%;
+	top: 19%;
+	width: 30px;
+	height: 30px;
+	background: url('../img/search.png') no-repeat;
+}
