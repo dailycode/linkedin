@@ -1,5 +1,15 @@
-header {
-	font-size: rem-calc(35px);
-	height: 50vh;
-	background: purple;
+.nav_bar{
+	width: 100%;
+	height: rem-calc(120px);
+	background: $bg-navtop;
+	box-shadow: 1px 0 10px #ccc;
+}
+
+.logo {
+	@include col( 3 / 12);
+	background: url('../img/LinkedIn-Logo.png') no-repeat center;
+	height: rem-calc(60px);
+	margin-top: 0.8rem;
+	background-size: contain;
+	text-indent: -9999px;
 }
