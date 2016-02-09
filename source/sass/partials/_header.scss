@@ -27,3 +27,27 @@
 	height: 30px;
 	background: url('../img/search.png') no-repeat;
 }
+
+.avatar_top {
+	@include col( 1 / 12 );
+	position: relative;
+	&:after {
+		width: rem-calc(30px);
+		height: rem-calc(30px);
+		content: '15';
+		background: $icon-notification;
+		position: absolute;
+		top: 10px;
+		right: 2px;
+		padding: 3px;
+		border-radius: 100%;
+		text-align: center;
+		color: $color-notification;
+		font-weight: bold;
+	}
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+}
