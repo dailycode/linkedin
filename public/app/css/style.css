@@ -542,6 +542,10 @@ body {
   color: #444;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav_bar {
   width: 100%;
   height: 7.5rem;
@@ -553,7 +557,7 @@ body {
 .logo {
   float: left;
   clear: none;
-  width: 22.75%;
+  width: 14.16667%;
   margin-left: 0%;
   margin-right: 3%;
   background: url("../img/LinkedIn-Logo.png") no-repeat center;
@@ -570,7 +574,7 @@ body {
 .search {
   float: left;
   clear: none;
-  width: 39.91667%;
+  width: 31.33333%;
   margin-left: 0%;
   margin-right: 3%;
   position: relative;
@@ -587,6 +591,18 @@ body {
   width: 30px;
   height: 30px;
   background: url("../img/search.png") no-repeat;
+}
+
+.nav_top {
+  float: left;
+  clear: none;
+  width: 39.91667%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+
+.nav_top:last-child {
+  margin-right: 0%;
 }
 
 .center {
@@ -639,6 +655,16 @@ input {
 
 .search_all::placeholder {
   margin-left: cal-rem(20px);
+}
+
+.item_nav {
+  display: inline-block;
+  margin: 0 1.3125rem;
+  font-size: 1.625rem;
+}
+
+.link_nav_top {
+  color: #3d4050;
 }
 
 @font-face {

@@ -6,7 +6,7 @@
 }
 
 .logo {
-	@include col( 3 / 12);
+	@include col( 2 / 12);
 	background: url('../img/LinkedIn-Logo.png') no-repeat center;
 	height: rem-calc(60px);
 	margin-top: 0.8rem;
@@ -15,7 +15,7 @@
 }
 
 .search {
-	@include col( 5 / 12 );
+	@include col( 4 / 12 );
 	position: relative;
 }
 
