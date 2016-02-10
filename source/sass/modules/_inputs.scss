@@ -5,14 +5,14 @@ input {
 
 .search_all {
 	width: 100%;
-	padding: rem-calc(20px) rem-calc(30px);
-	border: 2px solid $border-search;
-	border-radius: 25px;
-	font-size: rem-calc(23px);
+	padding: 1rem 1.5rem;
+	border: .2rem solid $border-search;
+	border-radius: 2.5rem;
+	font-size: 1.2rem;
 	font-style: italic;
 	color: $search-placeholder;
 
 	&::placeholder {
-		font-size: rem-calc(20px);
+		font-size: 1.3rem;
 	}
 }

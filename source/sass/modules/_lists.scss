@@ -1,7 +1,7 @@
 .item_nav {
 	display: inline-block;
-	margin: 0 rem-calc(21px);
-	font-size: rem-calc(26px);
+	margin: 0 1.5rem;
+	font-size: 1.6rem;
 }
 
 .link_nav_top {
@@ -9,10 +9,10 @@
 }
 
 .list_information {
-	font-size: rem-calc(27px);
-	margin: rem-calc(8px) 0;
+	font-size: 1.7rem;
+	margin: .8rem 0;
 	b {
-		margin-right: rem-calc(20px);
+		margin-right: 2rem;
 	}
 }
 
@@ -20,14 +20,14 @@
 	list-style: none;
 	li {
 		float: left;
-		margin-right: 30px;
+		margin-right: 3.0rem;
 	}	
 }
 
 @each $networks in dribbble, github, twitter, facebook, googlep {
 	.#{$networks}_icon {
-		width: rem-calc(40px);
-		height: rem-calc(35px);
+		width: 3.0rem;
+		height: 2.0rem;
 		display: block;
 		background: url('../img/icon-#{$networks}.png') no-repeat;
 	}

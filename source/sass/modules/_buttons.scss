@@ -6,21 +6,21 @@ button {
 .btn_send {
 	background: $btn-send;
 	color: $color-btn;
-	padding: 11px 15px;
-	margin: 50px 0 0 23px;
+	padding: 1.1rem 1.5rem;
+	margin: 5.0rem 0 0 2.3rem;
 	display: inline-block;
-	border-top-left-radius: 9px;
-	border-bottom-left-radius: 9px;
+	border-top-left-radius: 0.9rem;
+	border-bottom-left-radius: 0.9rem;
 	font-weight: 900;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 .arrow {
-	padding: 20px;
-	margin-bottom: -15px;
-	margin-left: 2px;
+	padding: 2.0rem;
+	margin-bottom: -1.5rem;
+	margin-left: 0.2rem;
 	display: inline-block;
-	border-top-right-radius: 9px;
-	border-bottom-right-radius: 9px;
+	border-top-right-radius: 0.9rem;
+	border-bottom-right-radius: 0.9rem;
 	background: url('../img/arrow.png') no-repeat center #00659a;
 }

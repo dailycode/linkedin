@@ -551,13 +551,13 @@ a {
   width: 100%;
   height: 7.5rem;
   background: #ffffff;
-  -webkit-box-shadow: 1px 0 10px #ccc;
-  box-shadow: 1px 0 10px #ccc;
+  -webkit-box-shadow: 0.1rem 0 1.0rem #ccc;
+  box-shadow: 0.1rem 0 1.0rem #ccc;
   overflow: hidden;
 }
 
 .content_navbar {
-  margin: 15px 0;
+  margin: 1.5rem 0;
 }
 
 .logo {
@@ -567,7 +567,7 @@ a {
   margin-left: 0%;
   margin-right: 3%;
   background: url("../img/LinkedIn-Logo.png") no-repeat center;
-  height: 3.75rem;
+  height: 4.0rem;
   background-size: contain;
   text-indent: -9999px;
 }
@@ -593,8 +593,8 @@ a {
   position: absolute;
   right: 6%;
   top: 20%;
-  width: 27px;
-  height: 27px;
+  width: 2.7rem;
+  height: 2.7rem;
   background: url("../img/search.png") no-repeat;
 }
 
@@ -612,8 +612,8 @@ a {
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
+  width: 4.0rem;
+  height: 4.0rem;
 }
 
 .number_notification {
@@ -622,9 +622,9 @@ a {
   content: '15';
   background: #e15353;
   position: absolute;
-  top: -10px;
-  right: 2px;
-  padding: 3px;
+  top: -1.0rem;
+  right: .2rem;
+  padding: .3rem;
   -webkit-border-radius: 100%;
   border-radius: 100%;
   text-align: center;
@@ -634,30 +634,30 @@ a {
 
 .cover {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   overflow: hidden;
 }
 
 .profile {
   width: 100%;
-  height: 350px;
+  height: 35rem;
   position: absolute;
 }
 
 .user {
   background: #FFF;
-  height: 250px;
-  -webkit-box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.22);
-  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.22);
+  height: 25rem;
+  -webkit-box-shadow: 0.1rem 0.1rem 3rem rgba(0, 0, 0, 0.22);
+  box-shadow: 0.1rem 0.1rem 3rem rgba(0, 0, 0, 0.22);
   position: relative;
-  top: -150px;
+  top: -15rem;
   overflow: hidden;
-  -webkit-border-radius: 0.625rem;
-  border-radius: 0.625rem;
+  -webkit-border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .profile_content {
-  padding: 18px 20px;
+  padding: 1.8rem 2.0rem;
 }
 
 .about_profile {
@@ -675,8 +675,8 @@ a {
 
 .about_profile:after {
   content: ' ';
-  width: 1px;
-  height: 170px;
+  width: .1rem;
+  height: 17rem;
   position: absolute;
   background: rgba(201, 201, 220, 0.52);
   right: 0;
@@ -710,8 +710,8 @@ a {
 }
 
 .profile_name {
-  font-size: 2.875rem;
-  margin-top: 20px;
+  font-size: 3.0rem;
+  margin-top: 2.0rem;
 }
 
 .titles_profile {
@@ -730,7 +730,7 @@ a {
 }
 
 .profile_description {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .info_profile {
@@ -739,7 +739,7 @@ a {
   width: 48.5%;
   margin-left: 0%;
   margin-right: 3%;
-  padding-left: 6.25rem;
+  padding-left: 5rem;
 }
 
 .info_profile:last-child {
@@ -800,26 +800,26 @@ button {
 .btn_send {
   background: #0177b5;
   color: #FFF;
-  padding: 11px 15px;
-  margin: 50px 0 0 23px;
+  padding: 1.1rem 1.5rem;
+  margin: 5.0rem 0 0 2.3rem;
   display: inline-block;
-  -webkit-border-top-left-radius: 9px;
-  border-top-left-radius: 9px;
-  -webkit-border-bottom-left-radius: 9px;
-  border-bottom-left-radius: 9px;
+  -webkit-border-top-left-radius: 0.9rem;
+  border-top-left-radius: 0.9rem;
+  -webkit-border-bottom-left-radius: 0.9rem;
+  border-bottom-left-radius: 0.9rem;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .arrow {
-  padding: 20px;
-  margin-bottom: -15px;
-  margin-left: 2px;
+  padding: 2.0rem;
+  margin-bottom: -1.5rem;
+  margin-left: 0.2rem;
   display: inline-block;
-  -webkit-border-top-right-radius: 9px;
-  border-top-right-radius: 9px;
-  -webkit-border-bottom-right-radius: 9px;
-  border-bottom-right-radius: 9px;
+  -webkit-border-top-right-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  -webkit-border-bottom-right-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
   background: url("../img/arrow.png") no-repeat center #00659a;
 }
 
@@ -830,35 +830,35 @@ input {
 
 .search_all {
   width: 100%;
-  padding: 1.25rem 1.875rem;
-  border: 2px solid #e3e3ec;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-  font-size: 1.4375rem;
+  padding: 1rem 1.5rem;
+  border: 0.2rem solid #e3e3ec;
+  -webkit-border-radius: 2.5rem;
+  border-radius: 2.5rem;
+  font-size: 1.2rem;
   font-style: italic;
   color: #a6abc7;
 }
 
 .search_all::-webkit-input-placeholder {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .search_all::-moz-placeholder {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .search_all:-ms-input-placeholder {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .search_all::placeholder {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .item_nav {
   display: inline-block;
-  margin: 0 1.3125rem;
-  font-size: 1.625rem;
+  margin: 0 1.5rem;
+  font-size: 1.6rem;
 }
 
 .link_nav_top {
@@ -866,12 +866,12 @@ input {
 }
 
 .list_information {
-  font-size: 1.6875rem;
-  margin: 0.5rem 0;
+  font-size: 1.7rem;
+  margin: .8rem 0;
 }
 
 .list_information b {
-  margin-right: 1.25rem;
+  margin-right: 2rem;
 }
 
 .network {
@@ -880,40 +880,40 @@ input {
 
 .network li {
   float: left;
-  margin-right: 30px;
+  margin-right: 3.0rem;
 }
 
 .dribbble_icon {
-  width: 2.5rem;
-  height: 2.1875rem;
+  width: 3.0rem;
+  height: 2.0rem;
   display: block;
   background: url("../img/icon-dribbble.png") no-repeat;
 }
 
 .github_icon {
-  width: 2.5rem;
-  height: 2.1875rem;
+  width: 3.0rem;
+  height: 2.0rem;
   display: block;
   background: url("../img/icon-github.png") no-repeat;
 }
 
 .twitter_icon {
-  width: 2.5rem;
-  height: 2.1875rem;
+  width: 3.0rem;
+  height: 2.0rem;
   display: block;
   background: url("../img/icon-twitter.png") no-repeat;
 }
 
 .facebook_icon {
-  width: 2.5rem;
-  height: 2.1875rem;
+  width: 3.0rem;
+  height: 2.0rem;
   display: block;
   background: url("../img/icon-facebook.png") no-repeat;
 }
 
 .googlep_icon {
-  width: 2.5rem;
-  height: 2.1875rem;
+  width: 3.0rem;
+  height: 2.0rem;
   display: block;
   background: url("../img/icon-googlep.png") no-repeat;
 }
