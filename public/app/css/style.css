@@ -529,7 +529,7 @@ table {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  font-family: "ProximaNova";
+  font-weight: 300;
 }
 
 html {
@@ -537,7 +537,7 @@ html {
 }
 
 body {
-  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font: 13px/1.6 "ProximaNova", "Arial", sans-serif;
   background: #fff;
   color: #444;
   height: 2000px;
@@ -723,7 +723,6 @@ a {
   margin-right: 3%;
   text-align: center;
   color: #3d4050;
-  font-weight: 400;
 }
 
 .titles_profile:last-child {
@@ -749,7 +748,6 @@ a {
 
 .number_connections {
   font-size: 3.0rem;
-  font-weight: 400;
 }
 
 .nav_top {
@@ -779,6 +777,7 @@ a {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
+  background: #ffffff;
 }
 
 footer {
