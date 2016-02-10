@@ -7,3 +7,28 @@
 .link_nav_top {
 	color: $link-navtop;
 }
+
+.list_information {
+	font-size: rem-calc(27px);
+	margin: rem-calc(8px) 0;
+	b {
+		margin-right: rem-calc(20px);
+	}
+}
+
+.network {
+	list-style: none;
+	li {
+		float: left;
+		margin-right: 30px;
+	}	
+}
+
+@each $networks in dribbble, github, twitter, facebook, googlep {
+	.#{$networks}_icon {
+		width: rem-calc(40px);
+		height: rem-calc(35px);
+		display: block;
+		background: url('../img/icon-#{$networks}.png') no-repeat;
+	}
+}

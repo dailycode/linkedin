@@ -1,0 +1,26 @@
+button {
+	background: none;
+	border: none;
+}
+
+.btn_send {
+	background: $btn-send;
+	color: $color-btn;
+	padding: 11px 15px;
+	margin: 50px 0 0 23px;
+	display: inline-block;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	font-weight: 900;
+	font-size: 15px;
+}
+
+.arrow {
+	padding: 20px;
+	margin-bottom: -15px;
+	margin-left: 2px;
+	display: inline-block;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	background: url('../img/arrow.png') no-repeat center #00659a;
+}

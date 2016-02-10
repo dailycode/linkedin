@@ -9,6 +9,7 @@
 .content_navbar {
 	margin: 15px 0;
 }
+
 .logo {
 	@include col( 2 / 12);
 	background: url('../img/LinkedIn-Logo.png') no-repeat center;
@@ -61,3 +62,75 @@
 	height: 400px;
 	overflow: hidden;
 }
+
+.profile {
+	width: 100%;
+	height: 350px;
+	position: absolute;
+}
+
+.user {
+	background: #FFF;
+	height: 250px;
+	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.22);
+	position: relative;
+	top: -150px;
+	overflow: hidden;
+	border-radius: rem-calc(10px);
+}
+
+.profile_content {
+	padding: 18px 20px;
+}
+
+.about_profile {
+	@include col( 1 / 2 );
+	position: relative;
+
+	&:after {
+		content: ' ';
+    width: 1px;
+    height: 170px;
+    position: absolute;
+    background: $border-divider_profile;
+    right: 0;
+    top: 10%;
+	}
+}
+
+.user_data {
+	@include col( 1 / 2 );
+}
+
+.img_profile {
+	@include col( 1 /  2);
+	width: 22rem;
+	height: 22rem;
+}
+
+.profile_name {
+	font-size: rem-calc(46px);
+	margin-top: 20px;
+}
+
+.titles_profile {
+	@include col( 2 /  2 );
+	text-align: center;
+	color: $profile_name;
+	font-weight: 400;
+}
+
+.profile_description {
+	font-size: rem-calc(24px);
+}
+
+.info_profile {
+	@include col( 1 / 2 );
+	padding-left: rem-calc(100px);
+}
+
+.number_connections {
+	font-size: 3.0rem;
+	font-weight: 400;
+}
+

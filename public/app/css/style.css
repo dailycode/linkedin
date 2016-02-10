@@ -540,6 +540,7 @@ body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
   background: #fff;
   color: #444;
+  height: 2000px;
 }
 
 a {
@@ -637,6 +638,119 @@ a {
   overflow: hidden;
 }
 
+.profile {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+}
+
+.user {
+  background: #FFF;
+  height: 250px;
+  -webkit-box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.22);
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.22);
+  position: relative;
+  top: -150px;
+  overflow: hidden;
+  -webkit-border-radius: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+.profile_content {
+  padding: 18px 20px;
+}
+
+.about_profile {
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  position: relative;
+}
+
+.about_profile:last-child {
+  margin-right: 0%;
+}
+
+.about_profile:after {
+  content: ' ';
+  width: 1px;
+  height: 170px;
+  position: absolute;
+  background: rgba(201, 201, 220, 0.52);
+  right: 0;
+  top: 10%;
+}
+
+.user_data {
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+
+.user_data:last-child {
+  margin-right: 0%;
+}
+
+.img_profile {
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  width: 22rem;
+  height: 22rem;
+}
+
+.img_profile:last-child {
+  margin-right: 0%;
+}
+
+.profile_name {
+  font-size: 2.875rem;
+  margin-top: 20px;
+}
+
+.titles_profile {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+  color: #3d4050;
+  font-weight: 400;
+}
+
+.titles_profile:last-child {
+  margin-right: 0%;
+}
+
+.profile_description {
+  font-size: 1.5rem;
+}
+
+.info_profile {
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  padding-left: 6.25rem;
+}
+
+.info_profile:last-child {
+  margin-right: 0%;
+}
+
+.number_connections {
+  font-size: 3.0rem;
+  font-weight: 400;
+}
+
 .nav_top {
   float: left;
   clear: none;
@@ -648,6 +762,11 @@ a {
 
 .nav_top:last-child {
   margin-right: 0%;
+}
+
+.nav_information {
+  list-style: none;
+  margin: 10px 0 20px 0;
 }
 
 .center {
@@ -671,6 +790,37 @@ footer {
 
 footer:last-child {
   margin-right: 0%;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.btn_send {
+  background: #0177b5;
+  color: #FFF;
+  padding: 11px 15px;
+  margin: 50px 0 0 23px;
+  display: inline-block;
+  -webkit-border-top-left-radius: 9px;
+  border-top-left-radius: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.arrow {
+  padding: 20px;
+  margin-bottom: -15px;
+  margin-left: 2px;
+  display: inline-block;
+  -webkit-border-top-right-radius: 9px;
+  border-top-right-radius: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background: url("../img/arrow.png") no-repeat center #00659a;
 }
 
 input {
@@ -713,6 +863,59 @@ input {
 
 .link_nav_top {
   color: #3d4050;
+}
+
+.list_information {
+  font-size: 1.6875rem;
+  margin: 0.5rem 0;
+}
+
+.list_information b {
+  margin-right: 1.25rem;
+}
+
+.network {
+  list-style: none;
+}
+
+.network li {
+  float: left;
+  margin-right: 30px;
+}
+
+.dribbble_icon {
+  width: 2.5rem;
+  height: 2.1875rem;
+  display: block;
+  background: url("../img/icon-dribbble.png") no-repeat;
+}
+
+.github_icon {
+  width: 2.5rem;
+  height: 2.1875rem;
+  display: block;
+  background: url("../img/icon-github.png") no-repeat;
+}
+
+.twitter_icon {
+  width: 2.5rem;
+  height: 2.1875rem;
+  display: block;
+  background: url("../img/icon-twitter.png") no-repeat;
+}
+
+.facebook_icon {
+  width: 2.5rem;
+  height: 2.1875rem;
+  display: block;
+  background: url("../img/icon-facebook.png") no-repeat;
+}
+
+.googlep_icon {
+  width: 2.5rem;
+  height: 2.1875rem;
+  display: block;
+  background: url("../img/icon-googlep.png") no-repeat;
 }
 
 @font-face {
