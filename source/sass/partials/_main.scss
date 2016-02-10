@@ -2,3 +2,61 @@
 	@include center(1100px);
 	background: $bg-default;
 }
+
+.boxs_infos {
+	@include col( 1 / 2 );
+	max-width: 49rem;
+	min-height: 53rem;
+	overflow: hidden;
+	background: $bg-default;
+	margin: 5rem 0;
+	padding: 2rem 3rem;
+	box-shadow: 0.1rem 0 2.0rem rgba(4, 6, 9, 0.15);;
+	border-radius: .4rem;
+
+	&:last-child{
+		float: right;
+	}
+}
+
+.title_box {
+	@include col( 1 / 1 );
+	font-size: 3.0rem;
+	padding-bottom: 2rem;
+}
+
+.list_authors {
+	@include col( 2 / 2 );
+	margin: 2rem 0;
+}
+
+.avatar_author {
+	max-width: 9rem;
+	float: left;
+}
+
+.name_author {
+	@include col( 2 / 2 );
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: .3rem;
+	color: $link-author;
+}
+
+.description_author {
+	font-weight: 400;
+	font-size: 1.3rem;
+}
+
+.info_box {
+	width: 70%;
+	padding-left: 20px;
+	float: left;
+}
+
+.comment_about {
+	@include col( 2 / 2 );
+	margin: 1.5rem 0;
+	font-size: 1.6rem;
+	font-style: italic;
+}

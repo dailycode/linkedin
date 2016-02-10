@@ -24,3 +24,10 @@ button {
 	border-bottom-right-radius: 0.9rem;
 	background: url('../img/arrow.png') no-repeat center #00659a;
 }
+
+.read_more {
+	@include col( 1 / 1);
+	font-weight: 700;
+	color: #0177b5;
+	font-size: 1.8rem;
+}

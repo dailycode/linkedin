@@ -538,13 +538,16 @@ html {
 
 body {
   font: 13px/1.6 "ProximaNova", "Arial", sans-serif;
-  background: #fff;
+  background: #f1f1f8;
   color: #444;
-  height: 2000px;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .nav_bar {
@@ -779,6 +782,106 @@ a {
   background: #ffffff;
 }
 
+.boxs_infos {
+  float: left;
+  clear: none;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  max-width: 49rem;
+  min-height: 53rem;
+  overflow: hidden;
+  background: #ffffff;
+  margin: 5rem 0;
+  padding: 2rem 3rem;
+  -webkit-box-shadow: 0.1rem 0 2rem rgba(4, 6, 9, 0.15);
+  box-shadow: 0.1rem 0 2rem rgba(4, 6, 9, 0.15);
+  -webkit-border-radius: .4rem;
+  border-radius: .4rem;
+}
+
+.boxs_infos:last-child {
+  margin-right: 0%;
+}
+
+.boxs_infos:last-child {
+  float: right;
+}
+
+.title_box {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  font-size: 3.0rem;
+  padding-bottom: 2rem;
+}
+
+.title_box:last-child {
+  margin-right: 0%;
+}
+
+.list_authors {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin: 2rem 0;
+}
+
+.list_authors:last-child {
+  margin-right: 0%;
+}
+
+.avatar_author {
+  max-width: 9rem;
+  float: left;
+}
+
+.name_author {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: .3rem;
+  color: #3d4050;
+}
+
+.name_author:last-child {
+  margin-right: 0%;
+}
+
+.description_author {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.info_box {
+  width: 70%;
+  padding-left: 20px;
+  float: left;
+}
+
+.comment_about {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.comment_about:last-child {
+  margin-right: 0%;
+}
+
 footer {
   float: left;
   clear: none;
@@ -820,6 +923,21 @@ button {
   -webkit-border-bottom-right-radius: 0.9rem;
   border-bottom-right-radius: 0.9rem;
   background: url("../img/arrow.png") no-repeat center #00659a;
+}
+
+.read_more {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  font-weight: 700;
+  color: #0177b5;
+  font-size: 1.8rem;
+}
+
+.read_more:last-child {
+  margin-right: 0%;
 }
 
 input {
