@@ -5,7 +5,7 @@ var gulp 					= require('gulp'),
 		uglify 				= require('gulp-uglify'),
 		imagemin			= require('gulp-imagemin'),
 		concat 				= require('gulp-concat'),
-		minifyHTML 		= require('gulp-minify-html')
+		minifyHTML 		= require('gulp-minify-html'),
 		ghPages				= require('gulp-gh-pages');
 
 gulp.task('browser-sync', function(){
