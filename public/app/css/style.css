@@ -770,7 +770,58 @@ ul {
   margin: 10px 0 20px 0;
 }
 
-.center {
+.tabs {
+  margin: 30px 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.tabs ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab_links {
+  background: none;
+  color: #3d4050;
+  display: inline-block;
+  padding: 15px 60px;
+  cursor: pointer;
+  font-size: 20px;
+  border-bottom: 1px solid #e3e3ec;
+}
+
+.active {
+  color: #0177b5;
+  font-weight: 600;
+  border-right: 1px solid #e3e3ec;
+  border-bottom: none;
+}
+
+.tab_content {
+  display: none;
+  background: #FFF;
+  padding: 20px;
+}
+
+.tab_content.active {
+  display: inherit;
+}
+
+.tab_description {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: #3d4050;
+}
+
+.tab_title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #3d4050;
+}
+
+.center, .tabs {
   width: auto;
   max-width: 1100px;
   float: none;

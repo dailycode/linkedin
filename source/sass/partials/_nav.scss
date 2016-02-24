@@ -7,3 +7,53 @@
 	list-style: none;
 	margin: 10px 0 20px 0;
 }
+
+.tabs {
+	margin: 30px 0;
+	border-radius: 5px;
+	@extend .center;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.tab_links {
+	background: none;
+	color: $tab-link;
+	display: inline-block;
+	padding: 15px 60px;
+	cursor: pointer;
+	font-size: 20px;
+	border-bottom: 1px solid #e3e3ec;
+}
+
+.active {
+	color: $tab-active;
+	font-weight: 600;
+	border-right: 1px solid #e3e3ec;
+	border-bottom: none;
+}
+
+.tab_content {
+	display: none;
+	background: $container-description-tabs;
+	padding: 20px;
+}
+
+.tab_content.active{
+	display: inherit;
+}
+
+.tab_description {
+	font-size: 2rem;
+	margin: 1.5rem 0;
+	color: $color-description-tabs;
+}
+
+.tab_title {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: $color-description-tabs;
+}

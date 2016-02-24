@@ -70,6 +70,42 @@
 			</div>
 		</section>
 	</header>
+	
+		<nav class="tabs">
+			<ul>
+				<li class="tab_links active" data-tab="tab-1">Background</li>
+				<li class="tab_links" data-tab="tab-2">Skills</li>
+				<li class="tab_links" data-tab="tab-3">Honors & Awards</li>
+				<li class="tab_links" data-tab="tab-4">Projects</li>
+				<li class="tab_links" data-tab="tab-5">Education</li>
+			</ul>		
+
+			<div id="tab-1" class="tab_content active">
+				<h2 class="tab_title">Tab content 1</h2>
+				<p class="tab_description">Narwhal gentrify mumblecore, kogi keffiyeh dreamcatcher synth tofu ennui VHS cred banjo. Letterpress etsy occupy, try-hard authentic farm-to-table cardigan schlitz hoodie. Irony fashion axe chia kitsch. Shoreditch chicharrones cold-pressed tumblr, crucifix food truck godard occupy cornhole.</p>
+				<p class="tab_description">Poutine stumptown venmo, flannel keytar banjo 8-bit kitsch leggings. Retro fingerstache pinterest banjo heirloom, pug migas green juice aesthetic. Heirloom shabby chic etsy, tacos 90's polaroid before they sold out kickstarter neutra.</p>
+			</div>
+
+			<div id="tab-2" class="tab_content">
+				<h2>Tab content 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam perspiciatis aspernatur consectetur ea. Corporis ipsam magnam at, veritatis officia, qui, iure animi alias ratione dolorum dignissimos exercitationem similique est nam.</p>
+			</div>
+
+			<div id="tab-3" class="tab_content">
+				<h2>Tab content 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam perspiciatis aspernatur consectetur ea. Corporis ipsam magnam at, veritatis officia, qui, iure animi alias ratione dolorum dignissimos exercitationem similique est nam.</p>
+			</div>
+
+			<div id="tab-4" class="tab_content">
+				<h2>Tab content 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam perspiciatis aspernatur consectetur ea. Corporis ipsam magnam at, veritatis officia, qui, iure animi alias ratione dolorum dignissimos exercitationem similique est nam.</p>
+			</div>
+
+			<div id="tab-5" class="tab_content">
+				<h2>Tab content 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam perspiciatis aspernatur consectetur ea. Corporis ipsam magnam at, veritatis officia, qui, iure animi alias ratione dolorum dignissimos exercitationem similique est nam.</p>
+			</div>
+		</nav>
 
 	<div class="center">
 		<ul class="boxs_infos">
@@ -121,5 +157,19 @@
 			</li>
 		</ul>
 	</div>
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		$('.tab_links').click(function(){
+			var tab_id = $(this).attr('data-tab');
+
+			$('.tab_links').removeClass('active');
+			$('.tab_content').removeClass('active');
+
+			$(this).addClass('active');
+			$("#"+tab_id).addClass('active');
+		})
+	})
+	</script>
 </body>
 </html>
