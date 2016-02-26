@@ -39,7 +39,8 @@
 .tab_content {
 	display: none;
 	background: $container-description-tabs;
-	padding: 20px;
+	padding: 3rem 2rem;
+	overflow: hidden;
 }
 
 .tab_content.active{

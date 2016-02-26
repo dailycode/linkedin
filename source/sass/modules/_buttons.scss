@@ -31,3 +31,23 @@ button {
 	color: #0177b5;
 	font-size: 1.8rem;
 }
+
+.btn_view_more {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	display: block;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,2) 100%); 
+	top: -93px;
+	padding: 8rem 0;
+	a {
+		font-size: 2.5rem;
+		font-weight: bold;
+		color: $btn-view-more;
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
