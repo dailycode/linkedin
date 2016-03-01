@@ -39,7 +39,8 @@
 .tab_content {
 	display: none;
 	background: $container-description-tabs;
-	padding: 3rem 2rem;
+	padding: 3rem 2rem 0 2rem;
+	max-height: 60rem;
 	overflow: hidden;
 }
 
